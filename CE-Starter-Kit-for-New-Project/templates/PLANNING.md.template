@@ -1,0 +1,71 @@
+# Project Planning — [PROJECT_NAME]
+
+## Overview
+[PROJECT_DESCRIPTION — 2-3 sentences describing what this project is and who it's for]
+
+## Tech Stack
+| Layer | Technology | Reason |
+|-------|-----------|--------|
+| Language | [LANGUAGE] | [WHY] |
+| Framework | [FRAMEWORK] | [WHY] |
+| Database | [DATABASE] | [WHY] |
+| ORM / Data Layer | [ORM] | [WHY] |
+| Auth | [AUTH_METHOD] | [WHY] |
+| Deployment | [DEPLOY_TARGET] | [WHY] |
+| Package Manager | [PKG_MANAGER] | — |
+| Linter / Formatter | [LINTER] | — |
+| Test Framework | [TEST_FRAMEWORK] | — |
+
+## Architecture
+[ARCHITECTURE_DESCRIPTION — describe the high-level architecture: monolith, microservices, serverless, etc.]
+
+### Project Structure
+```
+[PROJECT_TREE — the agreed folder structure from KICKSTART Phase 3]
+```
+
+### Key Design Decisions
+1. [DECISION_1 — e.g., "Using repository pattern for data access because..."]
+2. [DECISION_2 — e.g., "Separating API routes by domain (users/, products/) for..."]
+3. [DECISION_3]
+
+## Coding Conventions
+- [NAMING — e.g., "snake_case for functions/variables, PascalCase for classes"]
+- [FILE_NAMING — e.g., "kebab-case for files, PascalCase for components"]
+- [ERROR_HANDLING — e.g., "Use custom exception classes, never bare except"]
+- [LOGGING — e.g., "Use structlog with JSON output"]
+
+## API Design (if applicable)
+- Style: [REST / GraphQL / tRPC / gRPC]
+- Base URL: [e.g., /api/v1]
+- Auth: [e.g., Bearer token in Authorization header]
+- Response format:
+```json
+{
+  "success": true,
+  "data": {},
+  "error": null
+}
+```
+
+## Database Schema (if applicable)
+[SCHEMA_DESCRIPTION — key tables/collections and their relationships, or "TBD — will be designed per feature"]
+
+## External Integrations
+[LIST_INTEGRATIONS — APIs, services, SDKs that this project connects to, or "None yet"]
+
+## Constraints & Non-Goals
+### Constraints
+- [e.g., "Must support mobile browsers"]
+- [e.g., "Must handle 1000 concurrent users"]
+- [e.g., "Budget: free tier services only"]
+
+### Non-Goals (v1)
+- [e.g., "No real-time features in v1"]
+- [e.g., "No admin dashboard yet"]
+- [e.g., "No internationalization"]
+
+## V1 Feature Roadmap
+1. [FEATURE_1 — brief description]
+2. [FEATURE_2 — brief description]
+3. [FEATURE_3 — brief description]

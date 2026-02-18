@@ -1,0 +1,28 @@
+## FEATURE:
+
+[Describe what you want to build — be specific about functionality, end state, and user-visible behavior.
+Bad:  "Add search"
+Good: "Add full-text search to the /products endpoint using PostgreSQL tsvector, with support for filtering by category and sorting by relevance"]
+
+## EXAMPLES:
+
+[Point to existing code in this project that the AI should follow as reference.
+- Which existing feature is most similar to what you're building?
+- Which files demonstrate the patterns to follow?
+- Example: "Follow the same pattern as src/features/users/ for route, service, and model structure"]
+
+## DOCUMENTATION:
+
+[List any documentation that the AI needs to reference during implementation.
+- Official library/framework docs (URLs)
+- API documentation for external services
+- Internal design docs or specs]
+
+## OTHER CONSIDERATIONS:
+
+[Anything else the AI should know:
+- How does this feature interact with existing features?
+- Are there database migrations needed?
+- Performance requirements
+- Security requirements
+- Known constraints from the existing codebase]

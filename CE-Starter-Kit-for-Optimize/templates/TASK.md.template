@@ -1,0 +1,32 @@
+# Task Tracker — [PROJECT_NAME]
+
+## Current Sprint
+
+| Status | Task | Date Added | Notes |
+|--------|------|------------|-------|
+| [ ] | [NEXT_TASK — first task the user wants to work on] | [TODAY] | |
+
+## Completed
+
+| Task | Date Completed | Notes |
+|------|---------------|-------|
+| Context Engineering setup (CLAUDE.md, PLANNING.md, TASK.md) | [TODAY] | Via KICKSTART — Optimize mode |
+
+## Discovered During Work
+
+_Add tasks here that you discover while working on other features._
+
+| Status | Task | Discovered While Working On | Date |
+|--------|------|-----------------------------|------|
+
+## Improvement Backlog
+
+_Optional improvements identified during codebase scan. Tackle these when time allows._
+
+[DETECTED_IMPROVEMENTS — from Phase 4 of KICKSTART, e.g.:
+| Status | Improvement | Priority |
+|--------|------------|----------|
+| [ ] | Add .env.example file | Low |
+| [ ] | Standardize error handling across modules | Medium |
+| [ ] | Add CI/CD pipeline | Medium |
+]

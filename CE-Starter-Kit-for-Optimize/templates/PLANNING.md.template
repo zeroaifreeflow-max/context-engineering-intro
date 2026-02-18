@@ -1,0 +1,62 @@
+# Project Planning — [PROJECT_NAME]
+
+## Overview
+[PROJECT_DESCRIPTION — describe the project based on README, code analysis, and user confirmation]
+
+## Tech Stack (Detected)
+| Layer | Technology | Version | Config File |
+|-------|-----------|---------|-------------|
+| Language | [DETECTED] | [VERSION] | [e.g., pyproject.toml] |
+| Framework | [DETECTED] | [VERSION] | [e.g., package.json] |
+| Database | [DETECTED] | [VERSION] | [e.g., docker-compose.yml] |
+| ORM / Data Layer | [DETECTED] | [VERSION] | [e.g., prisma/schema.prisma] |
+| Auth | [DETECTED] | — | [e.g., src/middleware/auth.ts] |
+| Test Framework | [DETECTED] | [VERSION] | [e.g., pytest.ini] |
+| Linter / Formatter | [DETECTED] | — | [e.g., .eslintrc.js] |
+| Package Manager | [DETECTED] | — | [e.g., pnpm-lock.yaml] |
+| CI/CD | [DETECTED or "None"] | — | [e.g., .github/workflows/] |
+
+## Architecture
+[DETECTED_ARCHITECTURE — describe based on actual code structure]
+
+### Project Structure
+```
+[ACTUAL_PROJECT_TREE — from running tree, trimmed to show the important parts]
+```
+
+### Key Patterns Found
+1. [PATTERN_1 — e.g., "Repository pattern: data access is abstracted through repo classes in src/repositories/"]
+2. [PATTERN_2 — e.g., "Middleware chain: auth → validation → handler (see src/middleware/)"]
+3. [PATTERN_3 — e.g., "Feature-based folders: each feature has its own routes, services, and models"]
+
+### File Reference Guide
+| When building... | Follow the pattern in... |
+|-----------------|------------------------|
+| New API endpoint | [e.g., `src/api/routes/users.py`] |
+| New service | [e.g., `src/services/userService.ts`] |
+| New model | [e.g., `src/models/user.py`] |
+| New test | [e.g., `tests/test_users.py`] |
+
+## Coding Conventions (Detected)
+- Naming: [DETECTED — e.g., "snake_case functions, PascalCase classes"]
+- File naming: [DETECTED — e.g., "kebab-case.ts"]
+- Error handling: [DETECTED — e.g., "Custom AppError class with status codes"]
+- Logging: [DETECTED — e.g., "Winston logger with JSON format"]
+
+## Environment Variables
+[LIST_DETECTED_ENV_VARS — from .env.example or .env, with descriptions:
+| Variable | Purpose | Required |
+|----------|---------|----------|
+| DATABASE_URL | Database connection string | Yes |
+| API_KEY | External API key | Yes |
+| PORT | Server port (default: 3000) | No |
+]
+
+## External Integrations
+[DETECTED_INTEGRATIONS — APIs, services, SDKs found in the codebase]
+
+## Known Technical Debt / Notes
+[OBSERVATIONS — things noticed during scan that are worth documenting:
+- e.g., "Some controllers mix business logic with route handling"
+- e.g., "Test coverage is sparse in the /payments module"
+- e.g., "Legacy code in /utils uses callbacks instead of async/await"]

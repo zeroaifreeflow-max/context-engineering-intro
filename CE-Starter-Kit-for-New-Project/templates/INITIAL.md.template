@@ -1,0 +1,29 @@
+## FEATURE:
+
+[Describe what you want to build — be specific about functionality, end state, and user-visible behavior.
+Bad:  "Build an API"
+Good: "Build a REST API with /users endpoint that supports CRUD operations, JWT auth, and returns paginated JSON responses"]
+
+## EXAMPLES:
+
+[Point to example code that AI should follow as reference.
+- If you have examples in an examples/ folder, list them here and explain what aspect to follow.
+- If you have no examples yet, describe the patterns you want the AI to mimic.
+- You can also reference external repos or documentation.]
+
+## DOCUMENTATION:
+
+[List any documentation that the AI needs to reference during implementation.
+- Official library/framework docs (URLs)
+- API documentation for external services
+- Internal design docs or specs
+- MCP server documentation if applicable]
+
+## OTHER CONSIDERATIONS:
+
+[Anything else the AI should know:
+- Common pitfalls you've seen AI assistants make
+- Performance requirements
+- Security requirements
+- Specific libraries to use or avoid
+- Environment setup notes]
